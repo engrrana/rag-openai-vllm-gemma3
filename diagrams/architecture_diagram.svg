@@ -1,0 +1,257 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .box { fill: #E3F2FD; stroke: #1976D2; stroke-width: 2; }
+      .process { fill: #F3E5F5; stroke: #7B1FA2; stroke-width: 2; }
+      .storage { fill: #E8F5E9; stroke: #388E3C; stroke-width: 2; }
+      .api { fill: #FFF3E0; stroke: #F57C00; stroke-width: 2; }
+      .guard { fill: #FFEBEE; stroke: #C62828; stroke-width: 2; }
+      .ui { fill: #E0F2F1; stroke: #00796B; stroke-width: 2; }
+      .text { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
+      .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #000; }
+      .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .dashed { stroke-dasharray: 5,5; }
+      .layer-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #555; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="700" y="35" text-anchor="middle" class="title">OpenAI Embedding + vLLM (Gemma3) - Architecture Diagram</text>
+
+  <!-- LEFT SIDE: Main Architecture Flow -->
+  
+  <!-- Layer 1: Input -->
+  <text x="40" y="65" class="layer-label">INPUT LAYER</text>
+  <rect x="20" y="80" width="140" height="60" class="box" rx="5"/>
+  <text x="90" y="105" text-anchor="middle" class="text">PDF Document</text>
+  <text x="90" y="125" text-anchor="middle" class="label">(UET Prospectus)</text>
+
+  <rect x="180" y="80" width="140" height="60" class="box" rx="5"/>
+  <text x="250" y="105" text-anchor="middle" class="text">User Query</text>
+  <text x="250" y="125" text-anchor="middle" class="label">(Chat Input)</text>
+
+  <!-- Layer 2: Preprocessing -->
+  <text x="40" y="190" class="layer-label">PREPROCESSING LAYER</text>
+  
+  <rect x="20" y="205" width="140" height="70" class="process" rx="5"/>
+  <text x="90" y="230" text-anchor="middle" class="text">PDF Reading &amp;</text>
+  <text x="90" y="250" text-anchor="middle" class="text">Text Extraction</text>
+
+  <rect x="180" y="205" width="140" height="70" class="process" rx="5"/>
+  <text x="250" y="230" text-anchor="middle" class="text">Document</text>
+  <text x="250" y="250" text-anchor="middle" class="text">Chunking</text>
+
+  <!-- Arrows from Input to Preprocessing -->
+  <path d="M 90 140 L 90 205" class="arrow"/>
+  <path d="M 250 140 L 250 205" class="arrow"/>
+
+  <!-- Layer 3: Embedding -->
+  <text x="40" y="335" class="layer-label">EMBEDDING LAYER</text>
+  
+  <rect x="20" y="350" width="300" height="70" class="api" rx="5"/>
+  <text x="170" y="375" text-anchor="middle" class="text">OpenAI Embeddings API</text>
+  <text x="170" y="395" text-anchor="middle" class="label">(Embed chunks &amp; queries)</text>
+
+  <!-- Arrow to Embedding -->
+  <path d="M 90 275 L 90 310 L 170 310 L 170 350" class="arrow"/>
+  <path d="M 250 275 L 250 310 L 170 310" class="arrow"/>
+
+  <!-- Layer 4: Storage -->
+  <text x="40" y="475" class="layer-label">STORAGE LAYER</text>
+  
+  <rect x="20" y="490" width="300" height="70" class="storage" rx="5"/>
+  <text x="170" y="515" text-anchor="middle" class="text">Vector Database</text>
+  <text x="170" y="535" text-anchor="middle" class="label">(Chroma / Pinecone / Weaviate)</text>
+
+  <!-- Arrow to Storage -->
+  <path d="M 170 420 L 170 490" class="arrow"/>
+
+  <!-- Layer 5: Guardrail &amp; Retrieval -->
+  <text x="40" y="615" class="layer-label">RETRIEVAL &amp; VALIDATION LAYER</text>
+  
+  <rect x="20" y="630" width="135" height="70" class="guard" rx="5"/>
+  <text x="87.5" y="655" text-anchor="middle" class="text">Guardrail</text>
+  <text x="87.5" y="675" text-anchor="middle" class="label">(Validate Scope)</text>
+
+  <rect x="185" y="630" width="135" height="70" class="process" rx="5"/>
+  <text x="252.5" y="655" text-anchor="middle" class="text">Vector Search</text>
+  <text x="252.5" y="675" text-anchor="middle" class="label">(Similarity Search)</text>
+
+  <!-- Arrows from Storage to Retrieval -->
+  <path d="M 87.5 560 L 87.5 600 L 87.5 630" class="arrow"/>
+  <path d="M 170 560 L 252.5 560 L 252.5 630" class="arrow"/>
+
+  <!-- Layer 6: LLM -->
+  <text x="40" y="755" class="layer-label">LLM LAYER (LOCAL)</text>
+  
+  <rect x="20" y="770" width="300" height="80" class="api" rx="5"/>
+  <text x="170" y="795" text-anchor="middle" class="text">vLLM Inference Engine</text>
+  <text x="170" y="815" text-anchor="middle" class="text">+ Gemma3 Model</text>
+  <text x="170" y="835" text-anchor="middle" class="label">(Runs locally - high throughput)</text>
+
+  <!-- Arrows to LLM -->
+  <path d="M 87.5 700 L 87.5 730 L 170 730 L 170 770" class="arrow"/>
+  <path d="M 252.5 700 L 252.5 730 L 170 730" class="arrow"/>
+
+  <!-- Layer 7: API -->
+  <text x="40" y="905" class="layer-label">API LAYER</text>
+  
+  <rect x="20" y="810" width="300" height="70" class="api" rx="5"/>
+  <text x="170" y="835" text-anchor="middle" class="text">FastAPI Server</text>
+  <text x="170" y="855" text-anchor="middle" class="label">(POST /chat endpoint)</text>
+
+  <!-- RIGHT SIDE: System Components -->
+
+  <!-- System Components -->
+  <text x="400" y="65" class="layer-label" font-size="14">SYSTEM COMPONENTS</text>
+
+  <!-- External Services Box -->
+  <rect x="380" y="85" width="300" height="150" fill="none" stroke="#1976D2" stroke-width="2" rx="5"/>
+  <text x="400" y="105" class="layer-label">External Services</text>
+  
+  <circle cx="410" cy="130" r="5" fill="#F57C00"/>
+  <text x="425" y="135" class="label">OpenAI API (Embeddings)</text>
+  
+  <circle cx="410" cy="160" r="5" fill="#F57C00"/>
+  <text x="425" y="165" class="label">Model: text-embedding-3-small</text>
+  
+  <circle cx="410" cy="190" r="5" fill="#F57C00"/>
+  <text x="425" y="195" class="label">Requires API Key (paid)</text>
+  
+  <circle cx="410" cy="220" r="5" fill="#F57C00"/>
+  <text x="425" y="225" class="label">Fast + Reliable</text>
+
+  <!-- Local Inference Box -->
+  <rect x="380" y="250" width="300" height="180" fill="none" stroke="#7B1FA2" stroke-width="2" rx="5"/>
+  <text x="400" y="270" class="layer-label">Local Inference (vLLM)</text>
+  
+  <circle cx="410" cy="295" r="5" fill="#7B1FA2"/>
+  <text x="425" y="300" class="label">vLLM Server (Local)</text>
+  
+  <circle cx="410" cy="325" r="5" fill="#7B1FA2"/>
+  <text x="425" y="330" class="label">Model: Gemma3 (7B/13B/70B)</text>
+  
+  <circle cx="410" cy="355" r="5" fill="#7B1FA2"/>
+  <text x="425" y="360" class="label">Advantages:</text>
+  
+  <circle cx="425" cy="380" r="3" fill="#7B1FA2"/>
+  <text x="438" y="385" class="label">High throughput 100+ req/s</text>
+  
+  <circle cx="425" cy="405" r="3" fill="#7B1FA2"/>
+  <text x="438" y="410" class="label">No rate limits</text>
+
+  <!-- Storage Options Box -->
+  <rect x="380" y="445" width="300" height="140" fill="none" stroke="#388E3C" stroke-width="2" rx="5"/>
+  <text x="400" y="465" class="layer-label">Vector Storage Options</text>
+  
+  <circle cx="410" cy="490" r="5" fill="#388E3C"/>
+  <text x="425" y="495" class="label">Chroma (Local, lightweight)</text>
+  
+  <circle cx="410" cy="520" r="5" fill="#388E3C"/>
+  <text x="425" y="525" class="label">Pinecone (Cloud-based)</text>
+  
+  <circle cx="410" cy="550" r="5" fill="#388E3C"/>
+  <text x="425" y="555" class="label">Weaviate (Open-source)</text>
+
+  <!-- Frontend Box -->
+  <rect x="380" y="600" width="300" height="100" fill="none" stroke="#00796B" stroke-width="2" rx="5"/>
+  <text x="400" y="620" class="layer-label">Frontend Interface</text>
+  
+  <circle cx="410" cy="645" r="5" fill="#00796B"/>
+  <text x="425" y="650" class="label">Streamlit (Python-native)</text>
+  
+  <circle cx="410" cy="675" r="5" fill="#00796B"/>
+  <text x="425" y="680" class="label">Gradio or React (Optional)</text>
+
+  <!-- Data Flow Sequence -->
+  <text x="750" y="65" class="layer-label" font-size="14">DATA FLOW SEQUENCE</text>
+
+  <g>
+    <!-- Step 1 -->
+    <rect x="730" y="85" width="220" height="45" class="box" rx="5"/>
+    <text x="840" y="107" text-anchor="middle" class="text">1. Load UET PDF</text>
+    <text x="840" y="122" text-anchor="middle" class="label">Extract text</text>
+
+    <!-- Step 2 -->
+    <rect x="730" y="145" width="220" height="45" class="process" rx="5"/>
+    <text x="840" y="167" text-anchor="middle" class="text">2. Chunk Document</text>
+    <text x="840" y="182" text-anchor="middle" class="label">Semantic segments</text>
+
+    <!-- Step 3 -->
+    <rect x="730" y="205" width="220" height="45" class="api" rx="5"/>
+    <text x="840" y="227" text-anchor="middle" class="text">3. Embed Chunks</text>
+    <text x="840" y="242" text-anchor="middle" class="label">OpenAI API</text>
+
+    <!-- Step 4 -->
+    <rect x="730" y="265" width="220" height="45" class="storage" rx="5"/>
+    <text x="840" y="287" text-anchor="middle" class="text">4. Store in Vector DB</text>
+    <text x="840" y="302" text-anchor="middle" class="label">Ready for query</text>
+
+    <!-- Step 5 -->
+    <rect x="730" y="325" width="220" height="45" class="box" rx="5"/>
+    <text x="840" y="347" text-anchor="middle" class="text">5. User Query</text>
+    <text x="840" y="362" text-anchor="middle" class="label">via Chat UI</text>
+
+    <!-- Step 6 -->
+    <rect x="730" y="385" width="220" height="45" class="guard" rx="5"/>
+    <text x="840" y="407" text-anchor="middle" class="text">6. Validate Scope</text>
+    <text x="840" y="422" text-anchor="middle" class="label">Dept check</text>
+
+    <!-- Step 7 -->
+    <rect x="730" y="445" width="220" height="45" class="api" rx="5"/>
+    <text x="840" y="467" text-anchor="middle" class="text">7. Embed Query</text>
+    <text x="840" y="482" text-anchor="middle" class="label">OpenAI API</text>
+
+    <!-- Step 8 -->
+    <rect x="730" y="505" width="220" height="45" class="process" rx="5"/>
+    <text x="840" y="527" text-anchor="middle" class="text">8. Retrieve Top-K</text>
+    <text x="840" y="542" text-anchor="middle" class="label">Similarity search</text>
+
+    <!-- Step 9 -->
+    <rect x="730" y="565" width="220" height="45" class="api" rx="5"/>
+    <text x="840" y="587" text-anchor="middle" class="text">9. Generate Response</text>
+    <text x="840" y="602" text-anchor="middle" class="label">vLLM + Gemma3</text>
+
+    <!-- Step 10 -->
+    <rect x="730" y="625" width="220" height="45" class="ui" rx="5"/>
+    <text x="840" y="647" text-anchor="middle" class="text">10. Display Answer</text>
+    <text x="840" y="662" text-anchor="middle" class="label">+ Citations</text>
+
+    <!-- Arrows connecting steps -->
+    <path d="M 840 130 L 840 145" class="arrow"/>
+    <path d="M 840 190 L 840 205" class="arrow"/>
+    <path d="M 840 250 L 840 265" class="arrow"/>
+    <path d="M 840 310 L 840 325" class="arrow"/>
+    <path d="M 840 370 L 840 385" class="arrow"/>
+    <path d="M 840 430 L 840 445" class="arrow"/>
+    <path d="M 840 490 L 840 505" class="arrow"/>
+    <path d="M 840 550 L 840 565" class="arrow"/>
+    <path d="M 840 610 L 840 625" class="arrow"/>
+  </g>
+
+  <!-- Bottom: Legend -->
+  <text x="750" y="730" class="layer-label" font-size="12">COLOR LEGEND</text>
+  
+  <rect x="730" y="745" width="15" height="15" class="box"/>
+  <text x="755" y="757" class="label">Input / External</text>
+  
+  <rect x="900" y="745" width="15" height="15" class="process"/>
+  <text x="925" y="757" class="label">Processing</text>
+
+  <rect x="730" y="770" width="15" height="15" class="storage"/>
+  <text x="755" y="782" class="label">Storage</text>
+  
+  <rect x="900" y="770" width="15" height="15" class="api"/>
+  <text x="925" y="782" class="label">API/Service</text>
+
+  <rect x="730" y="795" width="15" height="15" class="guard"/>
+  <text x="755" y="807" class="label">Validation</text>
+  
+  <rect x="900" y="795" width="15" height="15" class="ui"/>
+  <text x="925" y="807" class="label">UI/Output</text>
+</svg>

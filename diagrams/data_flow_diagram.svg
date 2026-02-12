@@ -1,0 +1,306 @@
+<svg viewBox="0 0 1400 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .process-box { fill: #E3F2FD; stroke: #1976D2; stroke-width: 2; }
+      .data-box { fill: #FFF3E0; stroke: #F57C00; stroke-width: 2; }
+      .decision { fill: #FFEBEE; stroke: #C62828; stroke-width: 2; }
+      .output { fill: #E8F5E9; stroke: #388E3C; stroke-width: 2; }
+      .db { fill: #F3E5F5; stroke: #7B1FA2; stroke-width: 2; }
+      .text { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+      .small-text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #000; }
+      .arrow { stroke: #333; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .data-arrow { stroke: #F57C00; stroke-width: 2; fill: none; marker-end: url(#arrowhead-orange); stroke-dasharray: 3,3; }
+      .yes-no { font-size: 10px; fill: #555; font-weight: bold; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F57C00" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="700" y="35" text-anchor="middle" class="title">OpenAI Embedding + vLLM - Data Flow Diagram</text>
+
+  <!-- PREPROCESSING PHASE -->
+  <text x="50" y="70" class="text" fill="#555">PREPROCESSING PHASE (Offline)</text>
+
+  <!-- Start -->
+  <ellipse cx="90" cy="110" rx="30" ry="25" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="90" y="115" text-anchor="middle" class="small-text">START</text>
+
+  <!-- Load PDF -->
+  <rect x="40" y="160" width="100" height="50" class="process-box" rx="5"/>
+  <text x="90" y="185" text-anchor="middle" class="text">Load PDF</text>
+  <text x="90" y="200" text-anchor="middle" class="small-text">(UET Prospectus)</text>
+
+  <!-- Extract Text -->
+  <rect x="170" y="160" width="100" height="50" class="process-box" rx="5"/>
+  <text x="220" y="185" text-anchor="middle" class="text">Extract Text</text>
+  <text x="220" y="200" text-anchor="middle" class="small-text">(Clean)</text>
+
+  <!-- Chunking -->
+  <rect x="300" y="160" width="100" height="50" class="process-box" rx="5"/>
+  <text x="350" y="185" text-anchor="middle" class="text">Chunking</text>
+  <text x="350" y="200" text-anchor="middle" class="small-text">(Semantic)</text>
+
+  <!-- Chunks Data Store -->
+  <rect x="430" y="160" width="100" height="50" class="db" rx="5"/>
+  <text x="480" y="185" text-anchor="middle" class="text">Chunks Array</text>
+  <text x="480" y="200" text-anchor="middle" class="small-text">(In Memory)</text>
+
+  <!-- Arrows for preprocessing -->
+  <path d="M 120 110 L 40 160" class="arrow"/>
+  <path d="M 140 160 L 170 160" class="arrow"/>
+  <path d="M 270 160 L 300 160" class="arrow"/>
+  <path d="M 400 160 L 430 160" class="arrow"/>
+
+  <!-- OpenAI Embedding Call -->
+  <rect x="560" y="160" width="120" height="50" class="data-box" rx="5"/>
+  <text x="620" y="180" text-anchor="middle" class="text">OpenAI API</text>
+  <text x="620" y="195" text-anchor="middle" class="small-text">Embed Chunks</text>
+
+  <path d="M 530 185 L 560 185" class="arrow"/>
+  <text x="545" y="180" class="yes-no">for each</text>
+
+  <!-- Vector DB Storage -->
+  <rect x="710" y="160" width="120" height="50" class="db" rx="5"/>
+  <text x="770" y="180" text-anchor="middle" class="text">Vector DB</text>
+  <text x="770" y="195" text-anchor="middle" class="small-text">(Chroma/Pinecone)</text>
+
+  <path d="M 680 185 L 710 185" class="arrow"/>
+
+  <!-- Store in DB -->
+  <rect x="860" y="160" width="100" height="50" class="output" rx="5"/>
+  <text x="910" y="185" text-anchor="middle" class="text">Store</text>
+  <text x="910" y="200" text-anchor="middle" class="small-text">Embeddings</text>
+
+  <path d="M 830 185 L 860 185" class="arrow"/>
+
+  <!-- Ready for Query -->
+  <rect x="990" y="160" width="100" height="50" class="output" rx="5"/>
+  <text x="1040" y="185" text-anchor="middle" class="text">Ready for</text>
+  <text x="1040" y="200" text-anchor="middle" class="small-text">Query</text>
+
+  <path d="M 960 185 L 990 185" class="arrow"/>
+
+  <!-- QUERY PHASE -->
+  <text x="50" y="270" class="text" fill="#555">QUERY PHASE (Online - Real-time)</text>
+
+  <!-- User Input -->
+  <ellipse cx="90" cy="310" rx="30" ry="25" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="90" y="315" text-anchor="middle" class="small-text">USER</text>
+
+  <!-- User Query -->
+  <rect x="40" y="360" width="100" height="50" class="process-box" rx="5"/>
+  <text x="90" y="385" text-anchor="middle" class="text">User Query</text>
+  <text x="90" y="400" text-anchor="middle" class="small-text">(Input)</text>
+
+  <!-- Query Data -->
+  <rect x="170" y="360" width="100" height="50" class="data-box" rx="5"/>
+  <text x="220" y="385" text-anchor="middle" class="text">Query Data</text>
+  <text x="220" y="400" text-anchor="middle" class="small-text">(String)</text>
+
+  <!-- Guardrail Decision -->
+  <polygon points="350,360 400,385 350,410 300,385" fill="#FFEBEE" stroke="#C62828" stroke-width="2"/>
+  <text x="350" y="388" text-anchor="middle" class="small-text">Valid</text>
+  <text x="350" y="400" text-anchor="middle" class="small-text">Scope?</text>
+
+  <!-- Arrows for query input -->
+  <path d="M 120 310 L 40 360" class="arrow"/>
+  <path d="M 140 360 L 170 360" class="arrow"/>
+  <path d="M 270 385 L 300 385" class="arrow"/>
+
+  <!-- No path - Reject -->
+  <rect x="200" y="450" width="120" height="50" class="decision" rx="5"/>
+  <text x="260" y="475" text-anchor="middle" class="text">Return Message:</text>
+  <text x="260" y="490" text-anchor="middle" class="small-text">"I only answer</text>
+  <text x="260" y="503" text-anchor="middle" class="small-text">dept info"</text>
+
+  <path d="M 325 410 L 260 450" class="arrow"/>
+  <text x="290" y="430" class="yes-no">NO</text>
+
+  <!-- Yes path - Continue -->
+  <path d="M 400 385 L 480 385" class="arrow"/>
+  <text x="440" y="378" class="yes-no">YES</text>
+
+  <!-- Embed Query -->
+  <rect x="480" y="360" width="120" height="50" class="data-box" rx="5"/>
+  <text x="540" y="380" text-anchor="middle" class="text">OpenAI API:</text>
+  <text x="540" y="395" text-anchor="middle" class="text">Embed Query</text>
+
+  <!-- Query Embedding -->
+  <rect x="630" y="360" width="100" height="50" class="db" rx="5"/>
+  <text x="680" y="385" text-anchor="middle" class="text">Query</text>
+  <text x="680" y="400" text-anchor="middle" class="small-text">Embedding</text>
+
+  <path d="M 600 385 L 630 385" class="arrow"/>
+
+  <!-- Vector Similarity Search -->
+  <rect x="760" y="360" width="120" height="50" class="process-box" rx="5"/>
+  <text x="820" y="380" text-anchor="middle" class="text">Vector</text>
+  <text x="820" y="395" text-anchor="middle" class="text">Similarity Search</text>
+
+  <path d="M 730 385 L 760 385" class="arrow"/>
+
+  <!-- Connect to Vector DB -->
+  <path d="M 820 360 L 820 210" class="data-arrow"/>
+  <text x="830" y="285" class="yes-no">query</text>
+
+  <!-- Retrieve Top-K Results -->
+  <rect x="890" y="360" width="120" height="50" class="output" rx="5"/>
+  <text x="950" y="380" text-anchor="middle" class="text">Top-K</text>
+  <text x="950" y="395" text-anchor="middle" class="text">Results</text>
+
+  <path d="M 880 385 L 890 385" class="arrow"/>
+
+  <!-- GENERATION PHASE -->
+  <text x="50" y="510" class="text" fill="#555">GENERATION PHASE</text>
+
+  <!-- Context Preparation -->
+  <rect x="40" y="540" width="120" height="50" class="process-box" rx="5"/>
+  <text x="100" y="560" text-anchor="middle" class="text">Prepare</text>
+  <text x="100" y="575" text-anchor="middle" class="text">Context</text>
+
+  <!-- Create Prompt -->
+  <rect x="190" y="540" width="120" height="50" class="process-box" rx="5"/>
+  <text x="250" y="560" text-anchor="middle" class="text">Create</text>
+  <text x="250" y="575" text-anchor="middle" class="text">Prompt</text>
+
+  <!-- Connect from Top-K to Context -->
+  <path d="M 950 410 L 100 540" class="arrow"/>
+
+  <!-- Arrow to Create Prompt -->
+  <path d="M 160 565 L 190 565" class="arrow"/>
+
+  <!-- vLLM Inference -->
+  <rect x="340" y="540" width="120" height="50" class="data-box" rx="5"/>
+  <text x="400" y="560" text-anchor="middle" class="text">vLLM</text>
+  <text x="400" y="575" text-anchor="middle" class="text">+ Gemma3</text>
+
+  <path d="M 310 565 L 340 565" class="arrow"/>
+
+  <!-- Generate Response -->
+  <rect x="490" y="540" width="120" height="50" class="output" rx="5"/>
+  <text x="550" y="560" text-anchor="middle" class="text">Response</text>
+  <text x="550" y="575" text-anchor="middle" class="text">Generated</text>
+
+  <path d="M 460 565 L 490 565" class="arrow"/>
+
+  <!-- Add Citations -->
+  <rect x="640" y="540" width="120" height="50" class="process-box" rx="5"/>
+  <text x="700" y="560" text-anchor="middle" class="text">Add</text>
+  <text x="700" y="575" text-anchor="middle" class="text">Citations</text>
+
+  <path d="M 610 565 L 640 565" class="arrow"/>
+
+  <!-- RESPONSE & OUTPUT PHASE -->
+  <text x="50" y="670" class="text" fill="#555">RESPONSE &amp; OUTPUT PHASE</text>
+
+  <!-- Format Response -->
+  <rect x="40" y="700" width="120" height="50" class="output" rx="5"/>
+  <text x="100" y="720" text-anchor="middle" class="text">Format</text>
+  <text x="100" y="735" text-anchor="middle" class="text">Response</text>
+
+  <path d="M 700 590 L 100 700" class="arrow"/>
+
+  <!-- API Response -->
+  <rect x="190" y="700" width="120" height="50" class="data-box" rx="5"/>
+  <text x="250" y="725" text-anchor="middle" class="text">API Response</text>
+
+  <path d="M 160 725 L 190 725" class="arrow"/>
+
+  <!-- FastAPI Endpoint -->
+  <rect x="340" y="700" width="120" height="50" class="process-box" rx="5"/>
+  <text x="400" y="720" text-anchor="middle" class="text">FastAPI</text>
+  <text x="400" y="735" text-anchor="middle" class="text">/chat</text>
+
+  <path d="M 310 725 L 340 725" class="arrow"/>
+
+  <!-- Frontend Display -->
+  <rect x="490" y="700" width="120" height="50" class="output" rx="5"/>
+  <text x="550" y="725" text-anchor="middle" class="text">Display in</text>
+
+  <path d="M 460 725 L 490 725" class="arrow"/>
+
+  <!-- Chat Interface -->
+  <ellipse cx="640" cy="725" rx="50" ry="30" fill="#E0F2F1" stroke="#00796B" stroke-width="2"/>
+  <text x="640" y="730" text-anchor="middle" class="text">Chat UI</text>
+
+  <path d="M 610 725 L 590 725" class="arrow"/>
+
+  <!-- End -->
+  <ellipse cx="800" cy="725" rx="30" ry="30" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="800" y="730" text-anchor="middle" class="small-text">END</text>
+
+  <path d="M 690 725 L 770 725" class="arrow"/>
+
+  <!-- DATA STRUCTURES (Right Side) -->
+  <text x="1050" y="70" class="text" fill="#555">DATA STRUCTURES</text>
+
+  <!-- Chunk Data Structure -->
+  <rect x="1000" y="90" width="370" height="130" fill="none" stroke="#1976D2" stroke-width="2" rx="5"/>
+  <text x="1020" y="110" class="small-text" font-weight="bold">Chunk Object:</text>
+  <text x="1020" y="130" class="small-text">- chunk_id: string</text>
+  <text x="1020" y="148" class="small-text">- text: string (content)</text>
+  <text x="1020" y="166" class="small-text">- embedding: List[float] (384-dim OpenAI)</text>
+  <text x="1020" y="184" class="small-text">- source: string (page ref)</text>
+  <text x="1020" y="202" class="small-text">- metadata: dict</text>
+
+  <!-- Query Data Structure -->
+  <rect x="1000" y="235" width="370" height="130" fill="none" stroke="#F57C00" stroke-width="2" rx="5"/>
+  <text x="1020" y="255" class="small-text" font-weight="bold">Query Request:</text>
+  <text x="1020" y="275" class="small-text">- message: string (user query)</text>
+  <text x="1020" y="293" class="small-text">- embedding: List[float] (from OpenAI)</text>
+  <text x="1020" y="311" class="small-text">- top_k: int (default: 5)</text>
+  <text x="1020" y="329" class="small-text">- threshold: float (similarity)</text>
+  <text x="1020" y="347" class="small-text">- timestamp: string</text>
+
+  <!-- Response Data Structure -->
+  <rect x="1000" y="380" width="370" height="130" fill="none" stroke="#388E3C" stroke-width="2" rx="5"/>
+  <text x="1020" y="400" class="small-text" font-weight="bold">Response Object:</text>
+  <text x="1020" y="420" class="small-text">- answer: string (generated)</text>
+  <text x="1020" y="438" class="small-text">- citations: List[string] (sources)</text>
+  <text x="1020" y="456" class="small-text">- confidence: float (0-1)</text>
+  <text x="1020" y="474" class="small-text">- processing_time: float (ms)</text>
+  <text x="1020" y="492" class="small-text">- retrieved_chunks: int</text>
+
+  <!-- API Request/Response Format -->
+  <rect x="1000" y="525" width="370" height="110" fill="none" stroke="#7B1FA2" stroke-width="2" rx="5"/>
+  <text x="1020" y="545" class="small-text" font-weight="bold">FastAPI POST /chat:</text>
+  <text x="1020" y="565" class="small-text">Request: {message: string}</text>
+  <text x="1020" y="583" class="small-text">Response: {answer, citations,</text>
+  <text x="1020" y="601" class="small-text">confidence, processing_time}</text>
+
+  <!-- Processing Steps Timeline (Bottom) -->
+  <text x="50" y="830" class="text" fill="#555">PROCESSING TIMELINE</text>
+
+  <!-- Timeline bars -->
+  <g>
+    <!-- Preprocessing (Offline) -->
+    <rect x="40" y="850" width="150" height="30" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+    <text x="115" y="871" text-anchor="middle" class="small-text">Preprocessing</text>
+    <text x="115" y="883" text-anchor="middle" class="small-text">(One time)</text>
+
+    <!-- Query Embed -->
+    <rect x="210" y="850" width="120" height="30" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+    <text x="270" y="871" text-anchor="middle" class="small-text">Embed Query</text>
+    <text x="270" y="883" text-anchor="middle" class="small-text">(~100ms)</text>
+
+    <!-- Vector Search -->
+    <rect x="350" y="850" width="120" height="30" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+    <text x="410" y="871" text-anchor="middle" class="small-text">Vector Search</text>
+    <text x="410" y="883" text-anchor="middle" class="small-text">(~50ms)</text>
+
+    <!-- LLM Gen -->
+    <rect x="490" y="850" width="150" height="30" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+    <text x="565" y="871" text-anchor="middle" class="small-text">Generate Response</text>
+    <text x="565" y="883" text-anchor="middle" class="small-text">(~500-2000ms)</text>
+
+    <!-- Total -->
+    <text x="40" y="920" class="small-text">Total Response Time: ~650-2150ms</text>
+  </g>
+</svg>

@@ -1,0 +1,812 @@
+=== DEPARTMENT 1 ===
+Department Name: Department of Electrical Engineering
+Department Number: 1
+
+--- SECTION: Introduction ---
+The Department of Electrical Engineering was established in 1923 as a part of the Maclagan Engineering College. The Department started a postgraduate program in 1966. It currently offers Ph.D. and M.Sc. degrees in Electrical Engineering and M.Sc. in Artificial Intelligence. The first Master's degree was awarded in 1969 and the first Doctoral degree in 1979.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Electrical Engineering
+Program: M.Sc. Electrical Engineering
+Program: M.Sc. Artificial Intelligence
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Electrical Engineering
+Eligibility: Bachelor's degree in Electrical Engineering, Telecommunication Engineering, Electronics Engineering, Computer Engineering, Computer (System) Engineering, Mechatronics Engineering, Biomedical Engineering, or Telecommunication System Engineering from a PEC accredited program.
+
+Program: M.Sc. Artificial Intelligence
+Eligibility: Bachelor's degree in Artificial Intelligence (or equivalent), Computer Science (or equivalent), Information Technology, Electrical Engineering, Computer Engineering, Mechatronics Engineering, Computer Systems Engineering, or B.S./B.Sc. in a relevant discipline as determined by PGRC, or M.Sc. (16 years) in Computer Science or Information Technology.
+
+Program: Ph.D. Electrical Engineering
+Eligibility: 18-years MS/M.Sc./M.Phil. degree in relevant discipline with minimum CGPA 3.0/4.0 or 60% marks.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Muhammad Shoaib (Dean), Dr. Muhammad Tahir (Chairman), Dr. Haroon Attique Babri (Emeritus), Dr. Shahid Hussain Bokhari (Emeritus), Dr. Muhammad Asghar Saqib, Dr. Kashif Javed, Dr. Muhammad Aamer Iqbal Bhatti, Dr. Syed Abdul Rahman Kashif, Dr. Farhan Mahmood
+
+Rank: Associate Professors
+Faculty: Dr. Asim Loan, Dr. Irfan Ullah Chaudhary, Dr. Umar T Shami, Dr. Rabia Nazir, Dr. Ahsen Tahir, Dr. Ubaid Ullah Fayyaz, Dr. Haroon Farooq (RCET Campus), Dr. Waqas Tariq Toor (Narowal Campus)
+
+Rank: Assistant Professors
+Faculty: Dr. Nauman Ahmed, Dr. Syed Shah Irfan Hussain, Dr. Naveed Nawaz, Dr. Adeem Aslam, Dr. Omer Lateef, Dr. Farooq Ahmad, Dr. Salman Fakhar, Dr. Suleman Sami Qazi, Dr. Muhammad Imran Javed, Dr. Naveed Akhtar (RCET Campus), Dr. Rana Tariq Mehmood Ahmad (Narowal Campus)
+
+
+=== DEPARTMENT 2 ===
+Department Name: Department of Computer Science
+Department Number: 2
+
+--- SECTION: Introduction ---
+The Department of Computer Science is one of the prominent and oldest centers of computer education in the country. Its history dates back to 1968 when UET Lahore established a Computer Center under the supervision of the Department of Mathematics. A Bachelor degree program was started in 1976, upgraded to M.Sc. in 1978 (the first graduate program of the country in computer science). The center became an independent Department of Computer Science in 1991.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Computer Science
+Program: M.Sc. Computer Science
+Program: M.Sc. Software Engineering
+Program: M.Sc. Data Science (via Institute of Data Science)
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Computer Science
+Eligibility: Sixteen-year education with terminal degree in Computing (any related domains) or terminal degree suitable for Computer Science. Suitability determined by PGRC.
+
+Program: M.Sc. Software Engineering
+Eligibility: Sixteen-year education with terminal degree in Computing (any related domains) or terminal degree suitable for Software Engineering. Suitability determined by PGRC.
+
+Program: Ph.D. Computer Science
+Eligibility: 18-years MS/M.Sc./M.Phil. degree in relevant discipline with minimum CGPA 3.0/4.0 or 60% marks.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Muhammad Shoaib (Dean), Dr. Usman Ghani Khan (Chairman), Dr. Shazia Arshad, Dr. Muhammad Aslam, Dr. Muhammad Awais Hassan
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Junaid Arshad, Dr. Tauqir Ahmad, Dr. Amjad Farooq
+
+Rank: Assistant Professors
+Faculty: Dr. Talha Waheed, Dr. Syed Khaldoon Khurshid, Dr. Amna Zafar, Dr. Faiza Iqbal, Dr. Ayesha Altaf, Dr. Samyan Qayyum Wahla, Dr. Maida Shahid, Dr. Atif Hussain, Dr. Abqa Javed
+
+
+=== DEPARTMENT 3 ===
+Department Name: Department of Data Science
+Department Number: 3
+
+--- SECTION: Introduction ---
+The M.Sc. Data Science program has been initialized in the Department of Computer Science with a vision to understand and process data/information in the modern era. The institute expects graduate-level students to acquire knowledge ranging from fundamental concepts to advanced levels of data science, focusing on customizing the collection of local data to solve problems with a data-driven approach.
+
+--- SECTION: Offered Programs ---
+Program: M.Sc. Data Science
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Data Science
+Eligibility: Sixteen-year education with terminal degree in Computing (any related domains) or terminal degree suitable for Data Science. Suitability determined by PGRC.
+
+--- SECTION: Faculty Members ---
+Position: Director
+Faculty: Prof. Dr. Shazia Arshad
+
+Position: Assistant Professor
+Faculty: Dr. Faiza Iqbal
+
+Position: Teaching Assistant
+Faculty: Miss Fatima Shafiq
+
+Position: Graduate Assistants
+Faculty: Miss Hijab Zehra Zaidi, Miss Amna Adnan
+
+
+=== DEPARTMENT 4 ===
+Department Name: Department of Computer Engineering
+Department Number: 4
+
+--- SECTION: Introduction ---
+The Department of Computer Engineering was established as an independent department in 2020. It was originally part of the Department of Computer Science and Engineering. The department offers Ph.D., M.Sc., and B.Sc. degree programs in Computer Engineering and B.Sc. in Cyber Security.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Computer Engineering
+Program: M.Sc. Computer Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Computer Engineering
+Eligibility: Four years B.S./B.Sc. degree in Computer (Systems) Engineering, Software Engineering, Computer Science, Electronic Engineering, Electrical Engineering, Telecommunication Engineering, Artificial Intelligence, Information Technology, or a four-year degree in any other related discipline.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Muhammad Shoaib (Dean), Dr. Ali Hammad Akbar (Chairman), Dr. Muhammad Shahbaz
+
+Rank: Associate Professors
+Faculty: Dr. Yasir Saleem, Dr. Faisal Hayat
+
+Rank: Assistant Professors
+Faculty: Dr. Muhammad Asim Rehmat, Dr. Fareed Ud Din Mehmood Jafari, Dr. Beenish Ayesha Akram, Dr. Sahar Waqar
+
+
+=== DEPARTMENT 5 ===
+Department Name: Department of Mechanical Engineering
+Department Number: 5
+
+--- SECTION: Introduction ---
+The Department of Mechanical Engineering has the distinction of being one of the oldest disciplines since 1923 when this institution came into being as "Maclagan Engineering College". In 1961, when the institution was upgraded to an independent Engineering University, Master's and Doctorate programs were introduced.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Mechanical Engineering
+Program: M.Sc. Mechanical Design Engineering
+Program: M.Sc. Thermal Power Engineering
+Program: M.Sc. Renewable Energy Systems Engineering
+Program: M.Sc. Railway Engineering
+Program: M.Sc. Engineering Project Management
+Program: M.Sc. Mechanical Fluid Engineering (New Campus)
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Thermal Power Engineering
+Eligibility: B.Sc. Mechanical Engineering, Mechatronics and Control Engineering, Automotive Engineering, Aerospace Engineering, Chemical Engineering, or Energy System Engineering.
+
+Program: M.Sc. Mechanical Design Engineering
+Eligibility: B.Sc. Mechanical Engineering, Industrial and Manufacturing Engineering, Automotive Engineering, Aerospace Engineering, or Mechatronics and Control Engineering.
+
+Program: M.Sc. Renewable Energy Systems Engineering
+Eligibility: B.Sc. Mechanical Engineering, Renewable Energy/Energy Systems Engineering, Electrical Engineering, Chemical Engineering, or Environmental Engineering.
+
+Program: M.Sc. Railway Engineering
+Eligibility: B.Sc. Mechanical, Electrical, Civil, Mechatronics, or Industrial and Manufacturing Engineering.
+
+Program: M.Sc. Engineering Project Management
+Eligibility: Four years Bachelor's Degree in Engineering, Engineering Technology, Computer Science, City and Regional Planning, or Architecture.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Nasir Hayat (Pro Vice Chancellor), Dr. Tauseef Aized Khan (Dean), Dr. Asad Naeem Shah (Chairman), Dilshad Hussain (Emeritus), Dr. Muhammad Asif Mahmood Qureshi, Dr. Amjad Hussain, Dr. Ghulam Moeen ud Din, Dr. M. Mahmood Aslam Bhutta, Dr. Muhammad Asim
+
+Rank: Associate Professors
+Faculty: Dr. Awais Ahmad Khan, Dr. Muhammad Usman, Dr. Zia ul Rehman Tahir, Dr. Jamal Umar
+
+Rank: Assistant Professors
+Faculty: Dr. Naseer Ahmad, Dr. Jafar Hussain, Dr. Jawad Sarwar, Dr. Syed Nadeem Abbas Shah, Dr. Muhammad Zubair Sheikh, Dr. Muhammad Waqar Nasir, Dr. Talha Khan, Dr. Hafiz Zahid Nabi
+
+Rank: Lecturers
+Faculty: Dr. Syed Wasim Hasan Zubair, Dr. Rehmat Bashir, Dr. Hibbah Akhtar
+
+
+=== DEPARTMENT 6 ===
+Department Name: Department of Automotive Engineering Centre
+Department Number: 6
+
+--- SECTION: Introduction ---
+The Automotive Engineering Centre was initiated in 2005 to contribute to the automotive engineering field through research and innovation. A wide variety of Research, Development and Consultancy facilities are available at the Centre to support educational and industrial requirements.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Automotive Engineering
+Program: M.Sc. Automotive Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Automotive Engineering
+Eligibility: B.Sc. Mechanical Engineering, Automotive Engineering, Mechatronics and Control Engineering, Industrial and Manufacturing Engineering, Aerospace Engineering, or Energy Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Tauseef Aized Khan (Dean), Dr. Amjad Hussain
+
+Rank: Associate Professors
+Faculty: Dr. Ali Hussain Kazim (Director)
+
+Rank: Assistant Professors
+Faculty: Dr. Hasan Izhar Khan, Dr. Saad Jahangir, Dr. Muhammad Ali Shahbaz
+
+Rank: Lecturers
+Faculty: Dr. Adeel Shehzad
+
+
+=== DEPARTMENT 7 ===
+Department Name: Department of Industrial and Manufacturing Engineering
+Department Number: 7
+
+--- SECTION: Introduction ---
+The Postgraduate Program of the Department is well established and offers M.Sc. and Ph.D. degrees in two specializations: Engineering Management and Manufacturing Engineering. The program has earned its credibility over the years due to its updated curriculum designed according to industrial requirements and technological advancements.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Manufacturing Engineering
+Program: Ph.D. Engineering Management
+Program: M.Sc. Manufacturing Engineering
+Program: M.Sc. Engineering Management
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Engineering Management
+Eligibility: Any B.Sc. Engineering Degree.
+
+Program: M.Sc. Manufacturing Engineering
+Eligibility: Bachelor's degree in Industrial and Manufacturing Engineering, Mechatronics and Control Engineering, Mechanical Engineering, Automotive Engineering, Metallurgical and Materials Engineering, Polymer and Process Engineering, Textile Engineering, Aerospace Engineering, or relevant degree.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Tauseef Aized (Dean), Dr. Nadeem Ahmad Mufti (Emeritus), Dr. Muhammad Qaiser Saleem (Chairman)
+
+Rank: Associate Professors
+Faculty: Dr. Kashif Ishfaq, Dr. Sarmad Ali Khan, Dr. Sadaf Zahoor (On Leave)
+
+Rank: Assistant Professors
+Faculty: Dr. Rakhshanda Naveed, Dr. Syed Farhan Raza Rizvi, Dr. Muhammad Faisal Shahzad, Dr. Sana Ehsan
+
+Rank: Lecturers
+Faculty: Dr. Kiran Mughal
+
+
+=== DEPARTMENT 8 ===
+Department Name: Department of Mechatronics and Control Engineering
+Department Number: 8
+
+--- SECTION: Introduction ---
+The fast dynamics of modern technology called for merging electronics engineering with mechanical engineering into a new discipline called "Mechatronics". Mechatronics is the synergistic combination of precision mechanical engineering, electronics, control engineering, and computer science aimed at solving complex engineering problems.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Mechatronics Engineering
+Program: M.Sc. Mechatronics Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Mechatronics Engineering
+Eligibility: B.Sc. Mechatronics, Mechanical, Industrial and Manufacturing, Electrical/Electronic, Computer, Aeronautical, Aerospace/Avionics, Automotive, or Biomedical Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Tauseef Aized (Dean), Dr. Waqar Mahmood
+
+Rank: Associate Professors
+Faculty: Dr. Ali Raza (Chairman), Dr. Mohsin Rizwan, Dr. M. Ahsan, Dr. Syed Abbas Zilqurnain Naqvi
+
+Rank: Assistant Professors
+Faculty: Dr. Maria Akram, Dr. Ayisha Nayyar, Dr. Muhammad Ahsan Naeem, Dr. Maliha Saleem Bakhshi
+
+Rank: Lecturers
+Faculty: Dr. Muhammad Rzi Abbas
+
+
+=== DEPARTMENT 9 ===
+Department Name: Department of Civil Engineering
+Department Number: 9
+
+--- SECTION: Introduction ---
+The Department of Civil Engineering is one of the oldest departments in the country, established in 1939 as a part of the Maclagan Engineering College, Lahore. Currently, it has an enrolment of over 1000 students in bachelor, Master, and Ph.D. programs. The department has a strong alumni backup of more than 8000 alumni.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Civil Engineering
+Program: M.Sc. Structural Engineering
+Program: M.Sc. Geotechnical Engineering
+Program: M.Sc. Hydraulics and Irrigation Engineering
+Program: M.Sc. Disaster Mitigation Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Structural Engineering
+Eligibility: B.Sc. Civil Engineering or relevant degree as per departmental PGRC standards.
+
+Program: M.Sc. Disaster Mitigation Engineering
+Eligibility: 16 years education in Civil, Architectural, Transportation, Environmental, Geological, Petroleum, or Mining Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Khalid Farooq (Dean), Dr. Noor Muhammad Khan (Chairman), Dr. Asad Ullah Qazi, Dr. Asif Hameed, Dr. M. Burhan Sharif, Dr. Rashid Hameed, Dr. Hassan Mujtaba Shahzad, Dr. Abdul Sattar Shakir (Emeritus), Dr. Habib Ur Rehman (Emeritus)
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Azhar Saleem, Dr. Safeer Abbas, Dr. Qasim Shaukat Khan, Dr. Ali Ahmed, Dr. Nauman Khurram, Dr. Jahanzaib Israr, Dr. Muhammad Irfan-ul-Hassan, Dr. Wasim Abbas, Dr. Rizwan Azam, Dr. Muhammad Mazhar Saleem, Dr. M. Rizwan Riaz, Dr. Syed Asad Ali Gillani, Dr. Usman Akmal
+
+Rank: Assistant Professors
+Faculty: Dr. Imtiaz Rashid, Dr. Muhammad Yousaf, Dr. Umbreen us Sahar, Dr. Aqsa Shabbir, Dr. Muhammad Ali Falak, Dr. Muhammad Kashif, Dr. Ehtesham Mehmood (On Leave), Engr. Usman Ali
+
+Rank: Lecturers
+Faculty: Dr. Ubaid Ahmed Mughal
+
+
+=== DEPARTMENT 10 ===
+Department Name: Department of Transportation Engineering and Management
+Department Number: 10
+
+--- SECTION: Introduction ---
+Established under the Faculty of Civil Engineering in 2002, this Department aimed to produce transportation engineers capable of planning, designing, constructing, managing, operating, and maintaining various modes of transportation. It has the distinction of being the first department in Pakistan to offer a formal M.Sc. Degree course in Transportation Informatics.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Transportation Engineering
+Program: M.Sc. Transportation Engineering
+Program: M.Sc. Transportation Informatics
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Transportation Engineering
+Eligibility: B.Sc. in Transportation Engineering, Civil Engineering, or Urban Engineering.
+
+Program: M.Sc. Transportation Informatics
+Eligibility: 16 years education (B.Sc./M.Sc.) in Computer Science, or B.Sc. in Computer Engineering or Transportation Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Khalid Farooq (Dean), Dr. Zia-ur-Rehman (Chairman), Dr. Ammad Hassan Khan
+
+Rank: Associate Professors
+Faculty: Dr. Abdur Rahim
+
+Rank: Assistant Professors
+Faculty: Dr. Izza Anwer, Dr. Hina Saleemi, Dr. Saadia Tabassum, Dr. Mujassim Ali Rizvi, Dr. Bilal Zia Malik
+
+
+=== DEPARTMENT 11 ===
+Department Name: Department of Environmental Engineering and Research
+Department Number: 11
+
+--- SECTION: Introduction ---
+Established in 1972 as a post-graduate research institute, it is the premier educational institution in the field of Environmental Engineering in Pakistan. It is also one of the oldest and most reliable organizations providing commercial testing services in water, wastewater, and air.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Environmental Engineering
+Program: Ph.D. Environmental Sciences
+Program: M.Sc. Environmental Engineering
+Program: M.Phil. Environmental Sciences
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Environmental Engineering
+Eligibility: B.Sc. in Civil, Chemical, Environmental, Transportation, Mechanical Engineering, or Architectural Engineering and Design.
+
+Program: M.Phil. Environmental Sciences
+Eligibility: 16 years of education (BS/MSc) in Environmental Science, Chemistry, Biochemistry, Zoology, Botany, Agricultural Sciences, B.Sc. Environmental Engineering, Civil Engineering, or Chemical Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Khalid Farooq (Dean), Dr. Amir Ikhlaq (Director), Dr. Javed Anwar Aziz (Emeritus)
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Umar Farooq, Dr. Muhammad Irfan Jalees, Dr. Mehwish Anis, Dr. Ghulam Hussain
+
+Rank: Assistant Professors
+Faculty: Dr. Fizza Zahid
+
+Rank: Lecturers
+Faculty: Dr. Gul-E-Hina
+
+
+=== DEPARTMENT 12 ===
+Department Name: Department of Architectural Engineering and Design
+Department Number: 12
+
+--- SECTION: Introduction ---
+Established in 2001, this department holds the distinction of being the pioneer of the Architectural Engineering discipline in the country. The primary objective is to provide high-quality education and prepare students to become successful professionals equipped with innovative, interdisciplinary approaches tailored to the evolving demands of the construction sector.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Architectural Engineering
+Program: M.Sc. Integrated Building Design
+Program: M.Sc. Construction Management
+Program: M.Sc. Building Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Construction Management
+Eligibility: B.Sc. Architectural, Civil, Transportation, Construction Management, City and Regional Planning, or Bachelor of Architecture.
+
+Program: M.Sc. Integrated Building Design
+Eligibility: B.Sc. Architectural Engineering and Design, Civil Engineering, or Bachelor of Architecture.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Khalid Farooq (Dean), Dr. Khuram Rashid (Chairman), Dr. Sajjad Mubin
+
+Rank: Associate Professors
+Faculty: Dr. Maria Idrees
+
+Rank: Assistant Professors
+Faculty: Dr. Nasir Javed, Dr. Ahmad Riaz, Dr. Sidra Jamshed
+
+Rank: Lecturers
+Faculty: Dr. Anam Fatima, Mr. H. Abrar Ahmad, Dr. Abdul Mueed Iqbal, Dr. Huda Riaz, Ms. Afia Razzaq, Ms. Khadija Mawra
+
+
+=== DEPARTMENT 13 ===
+Department Name: Department of Center of Excellence in Water Resources Engineering (CEWRE)
+Department Number: 13
+
+--- SECTION: Introduction ---
+Established in 1976 under the Presidential Act, the Centre was primarily established with the objectives of high-level goal-oriented teaching and research in water resources. These objectives are being followed by imparting M.Sc. and Ph.D. degrees and conducting specialized training programs.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Engineering Hydrology
+Program: Ph.D. Water Resources Engineering
+Program: Ph.D. Water Resources Management
+Program: M.Sc. Water Resources Engineering
+Program: M.Sc. Water Resources Management
+Program: M.Sc. Engineering Hydrology
+Program: M.Sc. Hydro Power Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Engineering Hydrology
+Eligibility: B.Sc. or equivalent (16 years) in Civil, Agricultural, Geological Engineering; Civil/Agricultural Technology; Hydrology, Applied Geology, GIS, Forestry, Soil/Environmental Sciences, etc.
+
+Program: M.Sc. Water Resources Management
+Eligibility: B.Sc. or equivalent (16 years) in Agricultural, Civil, Geological Engineering; Applied Geology, Computer Science, Agricultural/Civil Technology, Forestry, Water Resources Management, Soil Science, Environmental Engineering, etc.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Khalid Farooq (Dean), Dr. Muhammad Atiq Ur Rehman Tariq (Director)
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Kaleem Sarwar, Dr. Ghulam Nabi, Dr. Muhammad Waseem
+
+Rank: Assistant Professors
+Faculty: Dr. Muhammad Masood, Dr. Mudassar Iqbal, Dr. Zaheer Muhammad Malik, Dr. Amjad Masood
+
+
+=== DEPARTMENT 14 ===
+Department Name: Department of Chemical Engineering
+Department Number: 14
+
+--- SECTION: Introduction ---
+Established in 1962, it is the first institution in the Country to offer B.Sc., M.Sc., and Ph.D. degree programs in Chemical Engineering. The Department started the M.Sc. Chemical Engineering degree program in 1970.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Chemical Engineering
+Program: M.Sc. Chemical Engineering
+Program: M.Sc. Safety, Health and Environment (New Campus)
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Chemical Engineering
+Eligibility: B.Sc. Chemical Engineering.
+
+Program: M.Sc. Safety, Health and Environment
+Eligibility: B.Sc. Engineering, B.Sc. Engineering Technology, M.Sc./B.Sc. (Hon.) 16-years education in Biological/Earth/Environmental/Life/Natural/Physical Sciences, or MBBS.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Naveed Ramzan (Dean), Dr. Hafiz Muhammad Zaheer Aslam (Chairman), Dr. Saima Yasin (On Leave)
+
+Rank: Associate Professors
+Faculty: Dr. Farhan Javed, Dr. Muhammad Asif Akhtar, Dr. Muhammad Azam Saeed, Dr. Muhammad Faheem, Dr. Umair Aslam, Dr. Usman Ali (On Leave)
+
+Rank: Assistant Professors
+Faculty: Dr. Ayesha Irshad, Dr. Farhan Ahmad, Dr. Hirra Anjum, Dr. Humayun Wali, Dr. Muhammad Wasim Tahir, Dr. Saira Bano, Dr. Umer Afzal
+
+
+=== DEPARTMENT 15 ===
+Department Name: Department of Polymer and Process Engineering
+Department Number: 15
+
+--- SECTION: Introduction ---
+The undergraduate program was launched in 2002 under the Polymer Engineering Division of the Department of Chemical Engineering. In January 2006, the university upgraded the division into an independent degree-awarding department. The postgraduate degree program was started in 2007.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Polymer Science and Engineering
+Program: M.Sc. Polymer and Process Engineering
+Program: M.Phil. Polymer Science and Technology
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Polymer and Process Engineering
+Eligibility: 16 years education in Polymer Engineering or Chemical Engineering.
+
+Program: M.Phil. Polymer Science and Technology
+Eligibility: 16 years education in Polymer Engineering, Chemical Engineering, Materials Science and Engineering, Physics, Chemistry, or Mechanical Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Ing. Naveed Ramzan (Dean), Dr. Asif Ali Qaiser (Chairman), Dr. Farhan Saeed, Dr. Atif Javaid
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Sarfraz, Dr. Yasir Qayyum Gill, Dr. Rabia Nazar, Dr. Umar Mehmood
+
+Rank: Assistant Professors
+Faculty: Dr. Muhammad Farooq, Dr. Muhammad Aamir, Dr. Zaman Tahir (IPFP Fellow)
+
+
+=== DEPARTMENT 16 ===
+Department Name: Department of Metallurgical and Materials Engineering
+Department Number: 16
+
+--- SECTION: Introduction ---
+Established in 1965, it has the distinction of being one of the oldest institutions in the country to offer bachelor's and master's degrees in Metallurgy. The Master's degree program was started in 1978 and focuses not only on theory but also on research.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Metallurgical and Materials Engineering
+Program: M.Sc. Metallurgical and Materials Engineering
+Program: M.Sc. Surface Science and Engineering
+Program: M.Sc. Materials Science (New)
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Metallurgical and Materials Engineering
+Eligibility: B.Sc. in Metallurgical and Materials Engineering, Chemical Engineering, Polymer Engineering, Mechanical Engineering, or Industrial and Manufacturing Engineering.
+
+Program: M.Sc. Surface Science and Engineering
+Eligibility: B.Sc. in Metallurgical and Materials Engineering, Chemical Engineering, Polymer Engineering, Mechanical Engineering, or Industrial and Manufacturing Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Ing. Naveed Ramzan (Dean), Dr. Muhammad Asif Rafiq (Chairman), Dr.-Ing. Furqan Ahmed
+
+Rank: Associate Professors
+Faculty: Dr. Ehsan-ul-Haq, Dr. Adnan Maqbool
+
+Rank: Assistant Professors
+Faculty: Dr.-Ing. Muhammad Zubair, Dr.-Ing. Khushnuda Nur, Dr.-Ing. Amjad Ali
+
+Rank: Lecturers
+Faculty: Dr. Syed Farrukh Alam Zaidi
+
+
+=== DEPARTMENT 17 ===
+Department Name: Department of Mining Engineering
+Department Number: 17
+
+--- SECTION: Introduction ---
+Established in 1954 as part of the Maclagan Engineering College, it is one of the oldest and best mining schools in the region. The postgraduate program in Mining Engineering started in 1976.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Mining Engineering
+Program: M.Sc. Mining Engineering
+Program: M.Sc. Tunneling and Underground Excavation Engineering
+Program: M.Sc. Mineral Processing
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Mining Engineering
+Eligibility: B.Sc. in Mining, Geological, Civil, or Petroleum and Gas Engineering.
+
+Program: M.Sc. Tunneling and Underground Excavation Engineering
+Eligibility: B.Sc. in Mining, Geological, or Civil Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Tauseef Aized (Dean), Dr. Zulfiqar Ali, Dr. Yasir Majeed
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Azeem Raza
+
+Rank: Assistant Professors
+Faculty: Dr. Shahab Saqib (Chairman), Dr. Muhammad Badar Hayat, Dr. Muhammad Usman Khan, Dr. Muhammad Shahzad
+
+
+=== DEPARTMENT 18 ===
+Department Name: Department of Geological Engineering
+Department Number: 18
+
+--- SECTION: Introduction ---
+In 2009, the Department started its graduate programs in two disciplines: M.Sc. Geological Engineering and M.Sc. Geological Sciences. These programs are designed for students who have the aptitude for pursuing higher education in rock engineering, geotechnical engineering, and exploration of natural energy resources.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Geological Engineering
+Program: M.Sc. Geological Engineering
+Program: M.Sc. Geological Sciences
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Geological Engineering
+Eligibility: B.Sc. Geological, Mining, Petroleum and Gas, or Civil Engineering.
+
+Program: M.Sc. Geological Sciences
+Eligibility: B.S. Geology or M.Sc. Geology (16 years), or B.Sc. Geological/Mining/Petroleum/Civil Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Muhammad Farooq Ahmed (Chairman)
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Arshad, Dr. Ghulam Mohyuddin Sohail
+
+Rank: Assistant Professors
+Faculty: Dr. Hafiz Muhammad Awai Rashid, Dr. Sadia Ismail
+
+
+=== DEPARTMENT 19 ===
+Department Name: Department of Petroleum and Gas Engineering
+Department Number: 19
+
+--- SECTION: Introduction ---
+The Department has the distinction of being the pioneer in the country to offer a degree program in Petroleum Engineering. The program at UET Lahore has been ranked (51-100) in the world by the prestigious QS Ranking by subject.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Petroleum and Gas Engineering
+Program: M.Sc. Petroleum and Gas Engineering
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. Petroleum and Gas Engineering
+Eligibility: B.Sc. Petroleum and Gas, Geological, Mining, Chemical, Civil, or Mechanical Engineering.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Prof. Dr. Muhammad Khurram Zahoor (Chairperson)
+
+
+=== DEPARTMENT 20 ===
+Department Name: Department of Architecture
+Department Number: 20
+
+--- SECTION: Introduction ---
+Established in 1962, the Department holds the distinction of being the first institution in Pakistan to offer a Bachelor's degree in Architecture. It continues to maintain its leadership by offering advanced academic programs, including the Master of Architecture (M.Arch) and Ph.D. in Architecture.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. in Architecture
+Program: Master of Architecture (M.Arch.)
+
+--- SECTION: Eligibility Criteria ---
+Program: Master of Architecture (M.Arch.)
+Eligibility: Bachelor of Architecture, B.Sc. Architectural Engineering and Design, City and Regional Planning, or Civil Engineering.
+
+--- SECTION: Faculty Members ---
+Position: Chairperson
+Faculty: Dr. Munazza Akhtar
+
+
+=== DEPARTMENT 21 ===
+Department Name: Department of City and Regional Planning
+Department Number: 21
+
+--- SECTION: Introduction ---
+This department has been contributing to nation-building through its graduates since 1962. It is an advanced planning institution in Pakistan, offering top-quality education in City and Regional Planning, Community Development, and Disaster Management.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. City and Regional Planning
+Program: M.Sc. City and Regional Planning
+Program: M.Sc. Community Development and Environmental Management
+Program: M.Sc. Disaster Management
+Program: Master in Real Estate Planning and Management
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Sc. City and Regional Planning
+Eligibility: B.Sc. City and Regional Planning, Civil Engineering, or Bachelor of Architecture.
+
+Program: M.Sc. Community Development
+Eligibility: B.Sc. City and Regional Planning, Civil, Transportation, Environmental Engineering, Product and Industrial Design, Architecture, Environmental Sciences, Sociology, Geography, Economics, GIS, etc.
+
+Program: M.Sc. Disaster Management
+Eligibility: M.Sc./B.Sc. Honors in Disaster Management, Earth/Environmental/Space/Biological/Management/Agriculture/Medical Sciences, Economics, Sociology, Psychology, Engineering (Civil/Electrical/Mechanical/Chemical/Mining/Geological), City and Regional Planning, Product Design, Architecture.
+
+Program: Master in Real Estate Planning and Management
+Eligibility: 16-years bachelor's degree in City and Regional Planning, Product and Industrial Design, Architecture, Engineering Sciences, Business Management, Social Sciences, GIS.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Prof. Dr. Shaker Mahmood Mayo (Chairperson)
+
+
+=== DEPARTMENT 22 ===
+Department Name: Department of Product and Industrial Design
+Department Number: 22
+
+--- SECTION: Introduction ---
+Established in 2006 in UET Main Campus with a vision to address emerging challenges in the field of design. In 2016, the department marked a major milestone by introducing postgraduate studies in Product and Industrial Design.
+
+--- SECTION: Offered Programs ---
+Program: Master in Product and Industrial Design (M.PID)
+
+--- SECTION: Eligibility Criteria ---
+Program: M.PID
+Eligibility: B.Sc. in Product and Industrial Design, Product Design, Industrial Design, Interior Design, Multimedia Design, Communication Design, Textile Design, Graphic Design, Architecture, or City and Regional Planning.
+
+--- SECTION: Faculty Members ---
+Rank: Associate Professors
+Faculty: Dr.-Ing. Atif Bilal Aslam (Chairman)
+
+Rank: Assistant Professors
+Faculty: Dr. Salman Asghar
+
+
+=== DEPARTMENT 23 ===
+Department Name: Department of Chemistry
+Department Number: 23
+
+--- SECTION: Introduction ---
+The Department started the M.Phil. Applied Chemistry degree program in 2001 and the Ph.D. Chemistry degree program in 2004. Further, M.Phil. in Food Science and Technology was started in 2018. It also offers Applied Chemistry courses to undergraduate degree programs of Engineering disciplines.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Chemistry
+Program: M.Phil. Applied Chemistry
+Program: M.Phil. Food Science and Technology
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Phil. Food Science and Technology
+Eligibility: 16-years degree in Food Science and Technology, Chemistry, Biochemistry, Agricultural Chemistry, or Biotechnology.
+
+Program: M.Phil. Applied Chemistry
+Eligibility: 16 years education in Chemistry or Applied Chemistry.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Prof. Dr. Farhat Yasmeen (Chairperson)
+
+
+=== DEPARTMENT 24 ===
+Department Name: Department of Mathematics
+Department Number: 24
+
+--- SECTION: Introduction ---
+The Department of Mathematics provides an environment to learn foundations, applications, and creative approaches related to mathematical and engineering problems, thus contributing to research services for science and engineering.
+
+--- SECTION: Offered Programs ---
+Program: M.Phil. Applied Mathematics
+Program: Ph.D. Mathematics
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Phil. Applied Mathematics
+Eligibility: Sixteen-year education with terminal degree in Mathematics (any related domains) or terminal degree suitable for Applied Mathematics. Suitability determined by PGRC.
+
+Program: Ph.D. Mathematics
+Eligibility: 18-years MS/M.Sc./M.Phil. degree in relevant discipline with minimum CGPA 3.0/4.0 or 60% marks.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Prof. Dr. Muhammad Mushtaq (Chairperson)
+
+
+=== DEPARTMENT 25 ===
+Department Name: Department of Physics
+Department Number: 25
+
+--- SECTION: Introduction ---
+The Department offers M.Phil. Applied Physics, M.Phil. Nanoscience and Technology, and Ph.D. Physics. It has produced 37 Ph.D., 627 M.Phil., and 466 M.Sc. Physics students so far. It has three fully equipped Advanced Research Centers including the Centre for Nanotechnology and Advanced Material Research.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Physics
+Program: M.Phil. Applied Physics
+Program: M.Phil. Nano Science and Technology
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Phil. Nano Science and Technology
+Eligibility: 16-years degree in Physics, Chemistry, or B.Sc. Engineering (Electrical, Chemical, Metallurgical, Polymer).
+
+Program: M.Phil. Polymer Science and Technology (Interdisciplinary)
+Eligibility: 16-years degree in Chemistry, Physics, Chemical Engineering, Polymer Engineering, Mechanical Engineering, or Materials Science.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Prof. Dr. Rehana Sharif (Chairperson), Prof. Dr. Muhammad Shahid Rafique (Dean)
+
+
+=== DEPARTMENT 26 ===
+Department Name: Department of Islamic Studies
+Department Number: 26
+
+--- SECTION: Introduction ---
+The Department offers postgraduate programs including Ph.D. and M.Phil. in Islamic Studies. It also offers a BS in Islamic Studies with Computer Technology, a pioneering interdisciplinary program designed to harmonize deep-rooted Islamic scholarship with cutting-edge technological expertise.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Islamic Studies
+Program: M.Phil. Islamic Studies
+
+--- SECTION: Eligibility Criteria ---
+Program: M.Phil. Islamic Studies
+Eligibility: 16-years bachelor's degree in Islamic Studies or M.A. in Islamic Studies.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Prof. Dr. Muhammad Shoaib (Dean/Chairman), Prof. Dr. Hafiz Muhammad Shahbaaz
+
+Rank: Associate Professors
+Faculty: Dr. Muhammad Nadeem Shah, Dr. Atiq ur Rehman, Dr. Hafiz Zahid Latif, Dr. Tanveer Qasim
+
+Rank: Assistant Professors
+Faculty: Dr. Hafiz Qudratullah, Ms. Gul Saria Ashraf (Ex-Pakistan Leave)
+
+Rank: Lecturers
+Faculty: Hafiz M Naeem, Saif ul Islam
+
+
+=== DEPARTMENT 27 ===
+Department Name: Department of Business and Management
+Department Number: 27
+
+--- SECTION: Introduction ---
+This department offers various programs in business administration and management.
+
+--- SECTION: Offered Programs ---
+Program: Ph.D. Business Administration and Management
+Program: MBA (30 CH)
+Program: MBA (60 CH)
+Program: Executive MBA
+Program: MS Management
+Program: MS Marketing
+
+--- SECTION: Eligibility Criteria ---
+Program: Executive MBA
+Eligibility: 16-years bachelor's degree in any discipline with 3 years professional experience.
+
+Program: MBA (30 CH)
+Eligibility: 16-years bachelor's degree in relevant discipline.
+
+Program: MBA (60 CH)
+Eligibility: 16-years bachelor's degree in any discipline.
+
+Program: MS Management
+Eligibility: 16-years bachelor's degree in relevant discipline.
+
+--- SECTION: Faculty Members ---
+Rank: Professors
+Faculty: Dr. Muhammad Shahid Rafique (Dean), Dr. Muhammad Nasir Malik (Director)
+
+Rank: Assistant Professors
+Faculty: Dr. Amir Ikram, Dr. Asma Abdul Rehman, Dr. Farah Samreen, Dr. Farman Afzal, Dr. Mehreen Waheed, Dr. Mishal Ahmad, Dr. Muhammad Shoaib Farooq, Dr. Naeem Akhtar, Dr. Rabia Naseem
+
+Rank: Lecturers
+Faculty: Dr. Maria Khan, Dr. Qurat ul Ain Akhtar, Dr. Rizwana Hameed, Dr. Sadaf Razzaq
