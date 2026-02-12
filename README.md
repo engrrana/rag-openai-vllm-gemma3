@@ -183,7 +183,7 @@ TOP_K=5
 4. System requirements & deployment
 5. Testing results
 
-[Link to video](add_video_link_here)
+
 
 ## 📚 Documentation
 
